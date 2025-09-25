@@ -1,0 +1,25 @@
+{
+	"folders": [	
+		{
+			"name": "--project--",
+			"path": "."
+		},
+		{
+			"name": "--xdbg--",
+			"path": "C:/xampp/.setup/php_current__xdbg"
+		}
+	],
+	"settings": {
+		"window.title": "[ epx-pax-sample-01 ] / ${folderName} ",
+		"workbench.colorCustomizations": {
+			"sideBar.background": "#202733",
+			"settings.headerBorder": "#d68b8b",
+			"statusBar.background": "#333",
+			"activityBar.background": "#325369",
+			"activityBar.inactiveForeground": "#a18c8c",
+			"icon.foreground": "#00ddff",
+			"symbolIcon.colorForeground": "#a77d7d",
+			"icon.colorForeground": "#ff0000",
+		}
+	}	
+}

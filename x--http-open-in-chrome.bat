@@ -1,0 +1,1 @@
+@C:/fw/--epx/250627-01-shell/x--http-open-in-browser.php.bat chrome
