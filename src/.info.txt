@@ -1,1 +1,2 @@
 This is a sample project
+The project is a public project and is used to demonstrate the deployment
