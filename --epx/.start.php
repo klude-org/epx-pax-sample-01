@@ -35,7 +35,7 @@ namespace { (function(){
         \spl_autoload_extensions("-#{$intfc}.php,/-#{$intfc}.php,-#.php,/-#.php");
         \spl_autoload_register();
         \set_include_path("{{$_SERVER['_']['START_DIR']}/.local/vnd}".PATH_SEPARATOR.get_include_path());
-        \spl_autoload_register(function($n){
+        \spl_autoload_register($GLOBALS['FW__UNO_AUTOLOADER_FN'] = function($n){
             if(!\preg_match(
                 "#^epx__(?<w_repo>.*?)__(?<w_owner>[^/]+)#",
                 $p = \str_replace('\\','/', $n),
@@ -66,7 +66,7 @@ namespace { (function(){
                 $line
             );
         });
-        $GLOBALS['_O'] = ($GLOBALS['_O'] ?? null ?: \epx__pax_alpha__klude_org\v0\origin::class)::_();
+        $GLOBALS['_O'] = ($GLOBALS['_O'] ?? null ?: \epx__pax_alpha__klude_org::class)::_();
         return $GLOBALS['_O'];
     } catch (\Throwable $ex) {
         switch($_SERVER['_']['INTFC'] ?? 'web'){
