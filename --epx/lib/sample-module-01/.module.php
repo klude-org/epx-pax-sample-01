@@ -1,3 +1,3 @@
 <?php 
 
-$_['MODULES'][\epx\std\github\module::_('sample-module-02','main','epx-pax-sample-01','klude-org')->path()] = true;
+\epx\std\module::_('sample-module-02:github/klude-org/epx-pax-sample-01/main')->include();
